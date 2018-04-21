@@ -93,8 +93,6 @@ int revelaPosicao(Posicao *atual, int revelar)
 {
     //Vai pra posicao desejada
     gotoXY((atual->y*2) + 8, atual->x + 4);
-    if (revelar)
-        Sleep(200);
 
     if(atual->status)
     {
